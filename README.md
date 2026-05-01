@@ -149,5 +149,6 @@ Every query returns:
 - 🤖 Bridges gap between raw data and insights
 
 ## 👤 Author
-- Shreyas Mysore Narayana
-- AI & Data Engineer | Automation Builder
+Shreyas Mysore Narayana
+
+AI & Data Engineer | Automation Builder
