@@ -1,333 +1,131 @@
-# **Data Agent**
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shreyas%20Mysore%20Narayana&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Data%20Engineer%20%7C%20Automation%20Builder&descSize=18&descAlignY=58&descColor=a8d8ea" />
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/shreyas-m-n-/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:mnshreyas615@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/ShreyasMysoreNarayana">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
+---
 
-A fast, CLI-only data agent for large tabular datasets (CSV/XLSX/Parquet). Works fully offline (no keys required). Optionally uses an LLM for short “Insights (caveated)” bullets.
+## ⚡ What I Build
 
+💡 I build **AI-powered systems that automate decision-making**
 
+- 🤖 AI + LLM Applications  
+- 🔁 Data Pipelines & Automation  
+- 📊 BI Dashboards & Analytics  
+- 🧠 Machine Learning Systems  
 
-### **Features**
+---
 
+## 🔥 Currently Building
 
+🚀 **AI Executive Reporting Platform**
+- LLM-powered report generation (Ollama)
+- End-to-end automation pipelines (n8n - in progress)
+- “Speechify-ready” executive summaries
 
-* Dataset-agnostic: CSV, Excel, Parquet; local files or URL (incl. Google Drive sharable links).
-* Schema \& cleaning: robust type inference, numeric/datetime coercion, missing-value summary, drop all-null columns.
-* Natural language CLI: ask for counts, group-bys, aggregates, top-N, correlations, and anomalies.
-* Deterministic executor: plans map to safe Pandas ops (no hidden state).
-* Analytics:
-* Meta: shape, columns, dtypes, head/tail, missing, duplicates
-* Aggregates: sum/mean/median/min/max/std with group by
-* Distributions: value counts (top-K)
-* Trends: by year (derived from a chosen date column)
-* Anomalies: z-score outliers (univariate); IsolationForest (multivariate, if enabled)
-* Sorting+filtering: top N rows by <col> where <filter>
-* Evidence first: every answer shows the plan, method, and a small preview.
-* Optional LLM: add “Insights (caveated)” bullets after results.
+---
 
+## 🚀 Featured Projects (Click to Explore)
 
+<p align="center">
 
-### **Requirements**
+<a href="https://github.com/ShreyasMysoreNarayana/AI-Executive-Report-Generator">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyasMysoreNarayana&repo=AI-Executive-Report-Generator&theme=tokyonight" />
+</a>
 
+<a href="https://github.com/ShreyasMysoreNarayana/Data-Agent">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyasMysoreNarayana&repo=Data-Agent&theme=tokyonight" />
+</a>
 
+<a href="https://github.com/ShreyasMysoreNarayana/MRI-Brain-SYNSET-Analysis-RA-">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyasMysoreNarayana&repo=MRI-Brain-SYNSET-Analysis-RA-&theme=tokyonight" />
+</a>
 
-* Python 3.10+
-* Dependencies listed in requirements.txt (notably pandas, pyarrow, and optionally scikit-learn, openai/anthropic if you use those features)
+<a href="https://github.com/ShreyasMysoreNarayana/Disney-Land-Review-Analysis-Using-NLP-Tableau">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyasMysoreNarayana&repo=Disney-Land-Review-Analysis-Using-NLP-Tableau&theme=tokyonight" />
+</a>
 
+<a href="https://github.com/ShreyasMysoreNarayana/Linked_Easy_Apply_Automation">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyasMysoreNarayana&repo=Linked_Easy_Apply_Automation&theme=tokyonight" />
+</a>
 
+<a href="https://github.com/ShreyasMysoreNarayana/Movie-Recommendation-System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyasMysoreNarayana&repo=Movie-Recommendation-System&theme=tokyonight" />
+</a>
 
-### **System Setup**
+</p>
 
+---
 
+## 🧠 Project Highlights
 
-#### Windows (PowerShell)
+| Project | What Makes It Special |
+|--------|----------------------|
+| 🤖 AI Executive Report System | Converts raw data → executive insights using LLMs |
+| 📊 Data Agent | Chat-based analytics over large datasets |
+| 🧠 MRI Brain Analysis | Healthcare ML with feature selection & predictive modeling |
+| 🎢 Disneyland Analytics | NLP + Tableau storytelling |
+| ⚡ Automation System | Real-world workflow automation |
+| 🎬 Recommender System | Hybrid ML recommendation engine |
 
+---
 
+## 🛠️ Tech Stack
 
-\# Create a virtual environment
+### 💻 Languages
+`Python` `SQL` `R` `Java` `C++`
 
-python -m venv venv
+### 🤖 AI / ML
+`PyTorch` `TensorFlow` `scikit-learn` `LLM` `NLP`
 
+### ☁️ Cloud & Data
+`AWS` `Google Cloud` `BigQuery` `Snowflake`
 
+### 📊 BI
+`Tableau` `Power BI`
 
-\# Activate it
+---
 
-.\\venv\\Scripts\\Activate.ps1
+## 📊 GitHub Stats
 
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ShreyasMysoreNarayana&show_icons=true&theme=tokyonight" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyasMysoreNarayana&layout=compact&theme=tokyonight" />
+</p>
 
+---
 
-\# Upgrade pip (recommended)
+## 🎯 What I’m Looking For
 
-python -m pip install --upgrade pip
+🚀 Full-time roles in:
 
+- Data Science  
+- Data Analytics  
+- AI / ML Engineering  
+- Business Intelligence  
 
+---
 
-\# Install dependencies
+## 🤝 Let’s Connect
 
-pip install -r requirements.txt
+<p align="center">
+  <a href="mailto:mnshreyas615@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Me-EA4335?style=for-the-badge" />
+  </a>
+  <a href="https://www.linkedin.com/in/shreyas-m-n-/">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-blue?style=for-the-badge" />
+  </a>
+</p>
 
+---
 
-
-#### macOS/Linux (bash/zsh)
-
-
-
-\# Create a virtual environment
-
-python3 -m venv venv
-
-
-
-\# Activate it
-
-source venv/bin/activate
-
-
-
-\# Upgrade pip (recommended)
-
-python -m pip install --upgrade pip
-
-
-
-\# Install dependencies
-
-pip install -r requirements.txt
-
-
-
-
-
-### **Running the Agent**
-
-
-
-#### Local file (CSV/XLSX/Parquet)
-
-
-
-\# CSV
-
-python -m src.agent --data-path "C:\\path\\to\\file.csv"
-
-
-
-\# Excel (specify sheet if needed)
-
-python -m src.agent --data-path "C:\\path\\to\\file.xlsx" --sheet "Sheet1"
-
-
-
-\# Parquet (recommended)
-
-python -m src.agent --data-path "C:\\path\\to\\file.parquet"
-
-
-
-#### From a URL (HTTP/HTTPS or Google Drive sharable link)
-
-
-
-python -m src.agent --from-url "https://example.com/data.csv"
-
-
-
-#### Set a default path for convenience
-
-
-
-$env:DATA\_PATH = "C:\\path\\to\\file.parquet"
-
-python -m src.agent
-
-
-
-
-
-##### **Note:If your dataset has a date/timestamp column, you can derive a year column by telling the agent which column to use:**
-
-
-
-python -m src.agent --data-path "C:\\path\\to\\file.parquet" --date-col eff\_gas\_day
-
-
-
-
-
-#### **Runtime Flags**
-
-
-
-* --data-path <path>: Local dataset file (csv/xlsx/parquet)
-* --from-url <url>: Download dataset at runtime (saved to ./data/)
-* --sheet <name>: Excel sheet name
-* --sep <char>: CSV delimiter override (e.g., ; or |)
-* --date-col <column>: Source datetime to derive year
-* --insights: Append brief “Insights (caveated)” (requires OpenAI/Anthropic key and SDK)
-
-
-
-
-
-#### **Optional: LLM Insights**
-
-
-
-Enable short, caveated bullets after tables (e.g., trends, possible drivers, and correlation).
-
-
-
-##### **OpenAI (recommended)**
-
-
-
-\# Install SDK once
-
-python -m pip install openai
-
-"openai>=1.40.0" | Out-File -Encoding utf8 -Append requirements.txt
-
-
-
-\# Set your key for this shell
-
-$env:OPENAI\_API\_KEY = "sk-..."
-
-
-
-\# Run with insights on
-
-python -m src.agent --data-path "C:\\path\\to\\file.parquet" --date-col eff\_gas\_day --insights
-
-
-
-##### **Anthropic (alternative)**
-
-
-
-python -m pip install anthropic
-
-"anthropic>=0.34.0" | Out-File -Encoding utf8 -Append requirements.txt
-
-
-
-$env:ANTHROPIC\_API\_KEY = "sk-ant-..."
-
-python -m src.agent --data-path "C:\\path\\to\\file.parquet" --date-col eff\_gas\_day --insights
-
-
-
-
-
-##### **Troubleshooting**
-
-
-
-ImportError: parquet engine (pyarrow/fastparquet) not found
-
-→ Install pyarrow:
-
-python -m pip install pyarrow
-
-"pyarrow>=15.0.0" | Out-File -Encoding utf8 -Append requirements.txt
-
-
-
-
-
-UnicodeDecodeError on import (e.g., byte 0x95)
-
-→ A source file was saved with CP-1252 characters. Re-save affected .py files as UTF-8. Use PowerShell to rewrite:
-
-Set-Content -Encoding utf8 src\\answer.py -Value (Get-Content src\\answer.py)
-
-
-
-
-
-##### **Performance Tips**
-
-
-
-* Keep previews small (default shows up to 10 rows).
-* Prefer Parquet; CSVs with millions of rows will read slower.
-* Group by low-cardinality columns (e.g., state\_abb) for faster aggregations.
-* Drop fully null columns (the agent does this automatically in preprocessing).
-
-
-
-
-
-#### **Project Structure**
-
-
-
-
-
-synmax-agent/
-
-├─ src/
-
-│  ├─ agent.py           # CLI entrypoint, REPL, planning/execution wiring
-
-│  ├─ dataset.py         # load from path/url; CSV/XLSX/Parquet
-
-│  ├─ preprocess.py      # schema inference, coercions, missing/cleanup
-
-│  ├─ planner.py         # rule-based NL → plan (group\_by, ops, filters, top-N, etc.)
-
-│  ├─ analysis.py        # deterministic ops (aggregates, correlations, anomalies, sort\_top)
-
-│  ├─ answer.py          # formats answers with Plan/Method/Preview
-
-│  ├─ utils.py           # banner, helpers
-
-│  └─ insights.py        # optional LLM “Insights (caveated)”
-
-├─ requirements.txt
-
-├─ README.md
-
-└─ .gitignore
-
-
-
-
-
-#### **Assumptions \& Limitations**
-
-
-
-* Causality: We do not claim causation; insights highlight correlation ≠ causation and note confounders/missingness.
-* Year derivation: --date-col chooses the datetime column to derive year; without it we guess a likely candidate.
-* Missing geo columns: Fully null columns (e.g., latitude/longitude in some exports) are dropped for speed.
-* Anomalies ≠ errors: Outliers may be legitimate spikes; review in domain context.
-* LLM mode (optional): Only column names/types + a tiny preview are used for insights; the agent works without any keys.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+⭐ *If you like my work, feel free to explore my repositories and connect!*
