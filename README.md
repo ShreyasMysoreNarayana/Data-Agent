@@ -89,7 +89,65 @@ Parquet (Recommended)
 ```bash
 python -m src.agent --data-path "file.parquet"
 ```
-From URL
-```bash
+
+## ⚡ Runtime Flags
+
+| Flag | Description |
+|------|------------|
+| `--data-path` | Path to local dataset (CSV / XLSX / Parquet) |
+| `--from-url` | Load dataset from a remote URL |
+| `--sheet` | Specify Excel sheet name |
+| `--sep` | Override CSV delimiter (e.g., `;` or `|`) |
+| `--date-col` | Column used for time-based analysis (year extraction) |
+| `--insights` | Enable optional LLM-generated insights |
 python -m src.agent --from-url "https://example.com/data.csv"
+
+## 🤖 Optional: LLM Insights
+
+Enable AI-generated summaries:
+```bash
+pip install openai
+$env:OPENAI_API_KEY="your-key"
+python -m src.agent --data-path "file.parquet" --insights
 ```
+
+## 📊 What You Get
+Every query returns:
+
+✅ Execution plan
+✅ Method used
+✅ Result preview
+✅ Optional insights
+
+## ⚠️ Assumptions & Limitations
+Correlation ≠ causation
+Outliers may be valid data
+Year trends depend on date column
+LLM insights are approximate
+
+## 🏎️ Performance Tips
+Use Parquet for large datasets
+Avoid high-cardinality group-bys
+Keep previews small
+Drop null-heavy columns
+
+## 📁 Project Structure
+src/
+├─ agent.py
+├─ dataset.py
+├─ preprocess.py
+├─ planner.py
+├─ analysis.py
+├─ answer.py
+├─ utils.py
+└─ insights.py
+
+## 🚀 Impact
+
+⏱️ Reduces analysis time significantly
+📊 Makes data accessible to non-technical users
+🤖 Bridges gap between raw data and insights
+
+## 👤 Author
+Shreyas Mysore Narayana
+AI & Data Engineer | Automation Builder
