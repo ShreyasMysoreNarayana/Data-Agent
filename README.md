@@ -132,15 +132,23 @@ Every query returns:
 - Drop null-heavy columns
 
 ## 📁 Project Structure
-- src/
-- ├─ agent.py
-- ├─ dataset.py
-- ├─ preprocess.py
-- ├─ planner.py
-- ├─ analysis.py
-- ├─ answer.py
-- ├─ utils.py
-- └─ insights.py
+src/
+
+├─ agent.py
+
+├─ dataset.py
+
+├─ preprocess.py
+
+├─ planner.py
+
+├─ analysis.py
+
+├─ answer.py
+
+├─ utils.py
+
+└─ insights.py
 
 ## 🚀 Impact
 
