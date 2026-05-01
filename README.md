@@ -114,40 +114,40 @@ python -m src.agent --data-path "file.parquet" --insights
 ## 📊 What You Get
 Every query returns:
 
-✅ Execution plan
-✅ Method used
-✅ Result preview
-✅ Optional insights
+- ✅ Execution plan
+- ✅ Method used
+- ✅ Result preview
+- ✅ Optional insights
 
 ## ⚠️ Assumptions & Limitations
-Correlation ≠ causation
-Outliers may be valid data
-Year trends depend on date column
-LLM insights are approximate
+- Correlation ≠ causation
+- Outliers may be valid data
+- Year trends depend on date column
+- LLM insights are approximate
 
 ## 🏎️ Performance Tips
-Use Parquet for large datasets
-Avoid high-cardinality group-bys
-Keep previews small
-Drop null-heavy columns
+- Use Parquet for large datasets
+- Avoid high-cardinality group-bys
+- Keep previews small
+- Drop null-heavy columns
 
 ## 📁 Project Structure
-src/
-├─ agent.py
-├─ dataset.py
-├─ preprocess.py
-├─ planner.py
-├─ analysis.py
-├─ answer.py
-├─ utils.py
-└─ insights.py
+- src/
+- ├─ agent.py
+- ├─ dataset.py
+- ├─ preprocess.py
+- ├─ planner.py
+- ├─ analysis.py
+- ├─ answer.py
+- ├─ utils.py
+- └─ insights.py
 
 ## 🚀 Impact
 
-⏱️ Reduces analysis time significantly
-📊 Makes data accessible to non-technical users
-🤖 Bridges gap between raw data and insights
+- ⏱️ Reduces analysis time significantly
+- 📊 Makes data accessible to non-technical users
+- 🤖 Bridges gap between raw data and insights
 
 ## 👤 Author
-Shreyas Mysore Narayana
-AI & Data Engineer | Automation Builder
+- Shreyas Mysore Narayana
+- AI & Data Engineer | Automation Builder
